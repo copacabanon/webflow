@@ -189,7 +189,7 @@ function setProductFromUrl() {
     if (regEnfant.test(path) || regAnimaux.test(path) || !path.includes('kobe') && !path.includes('jardin') && !path.includes('york') && !path.includes('grison') && !path.includes('ardenne')) {
         product.name = regEnfant.test(path) ? path.match(regEnfant)[1] : path.match(regAnimaux)[1];
         if (product.name == 'parme') {
-            product.prix = { 'fixe': 5490 };
+            product.prix = { 'fixe': 6390 };
             product.type = 'enfant';
         } else if (product.name == 'paris') {
             product.prix = { 'fixe': 6900 };
